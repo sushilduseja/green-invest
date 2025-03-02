@@ -86,9 +86,9 @@ class ESGBenchmarkGenerator:
                 sector = company['sector']
                 sector_benchmark = benchmarks[benchmarks['sector'] == sector]
                 
-                if sector_benchmark
+                if sector_benchmark:
                 # Create comparisons
-            comparisons = []
+                    comparisons = []
             for _, company in merged.iterrows():
                 sector = company['sector']
                 sector_benchmark = benchmarks[benchmarks['sector'] == sector]
